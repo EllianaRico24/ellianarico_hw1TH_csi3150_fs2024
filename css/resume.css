@@ -1,0 +1,224 @@
+/*-----overall page styling & resets-----*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333;
+    background-image: linear-gradient(white, pink);
+}
+
+/*-----header styling-----*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color:#ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 24px;
+}
+
+/*-----Navbar styling-----*/
+
+nav{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    color:dimgrey;
+    font-size: 18px;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color:dimgrey;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    
+}
+
+nav ul li:hover a{
+    color:pink;
+    transition: color 0.3s ease-in-out;
+}
+
+/*-----call-to-action button styling-----*/
+button {
+    font-size: 18px;
+    color:dimgrey;
+    background-color: pink;
+    border:none;
+    text-align:center;
+    padding: 10px;
+}
+
+button:hover {
+    color:#ffffff;
+    transition: color 0.3s ease-in-out;
+}
+
+/*-----contact-into section styling-----*/
+
+.contact-info{
+    padding-top: 30px;
+    text-align:center;
+}
+
+.contact-info p a{
+    color:lightcoral;
+}
+
+.contact-info p a:hover{
+    color:gray;
+    transition: color 0.3s ease-in-out;
+}
+
+/*-----objectives section styling-----*/
+
+.objective {
+    padding-top: 50px;
+    text-align: center;
+
+}
+
+/*-----professional experience section styling-----*/
+
+.prof-experience {
+    padding-top: 20px;
+    text-align: center;
+    margin:25px;
+}
+
+.prof-experience .prof-one {
+    padding:15px;
+    border: 0px;
+    margin:auto;
+    width: 80%;
+    position:relative;
+    top:0;
+    transition:top ease 0.5s;
+    
+}
+
+.prof-experience .prof-one:hover{
+  top: -10px;
+}
+
+.prof-experience .prof-two {
+    padding:15px;
+    border: 0px;
+    margin:auto;
+    width: 80%;
+    position:relative;
+    top:0;
+    transition:top ease 0.5s;
+}
+
+.prof-experience .prof-two:hover{
+  top: -10px;
+}
+
+.prof-experience .prof-three {
+    padding:15px;
+    border: 0px;
+    margin:auto;
+    width: 80%;
+    position:relative;
+    top:0;
+    transition:top ease 0.5s;
+}
+
+.prof-experience .prof-three:hover{
+  top: -10px;
+}
+
+/*-----educational experiences section styling-----*/
+
+.education-table {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction:column;
+    padding:15px;
+}
+
+.education-table table {
+    padding: 10px;
+    border:2px solid;
+    border-color:dimgrey;
+    border-collapse:collapse;
+}
+
+.education-table .education-title{
+    padding-bottom: 10px;
+}
+
+.education-table table thead{
+    font-weight:bold;
+    padding: 10px;
+    border:2px solid;
+    border-color:dimgrey;
+    border-collapse:collapse;
+}
+
+.education-table table td{
+    padding: 5px;
+    border:2px solid;
+    border-color:dimgrey;
+    border-collapse:collapse;
+}
+
+/*-----hobbies and interests section styling-----*/
+
+.interests{
+    padding: 25px;
+    text-align:center;
+}
+
+/*-----footer styling-----*/
+
+.footer-line{
+    display: block;
+    height: 2px;
+    border: 0;
+    width:50%;
+    border-top: 2px solid dimgrey;
+    margin: auto;
+    padding: 0;
+}
+
+footer {
+    padding-top: 20px;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+}
+
+footer span a{
+    color:lightcoral;
+}
+
+footer span a:hover{
+    color:#ffffff;
+    transition: color 0.3s ease-in-out;
+}

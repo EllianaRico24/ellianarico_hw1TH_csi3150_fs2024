@@ -1,0 +1,201 @@
+/*-----overall page styling & resets-----*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333;
+    background-image: linear-gradient(white, pink);
+}
+
+/*-----header styling-----*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color:#ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 24px;
+}
+
+/*-----Navbar styling-----*/
+
+nav{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    color:dimgrey;
+    font-size: 18px;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color:dimgrey;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    
+}
+
+nav ul li:hover a{
+    color:pink;
+    transition: color 0.3s ease-in-out;
+}
+
+/*-----call-to-action button styling-----*/
+
+button {
+    font-size: 18px;
+    color:dimgrey;
+    background-color: pink;
+    border:none;
+    text-align:center;
+    padding: 10px;
+}
+
+button:hover {
+    color:#ffffff;
+    transition: color 0.3s ease-in-out;
+}
+
+/*-----overall fun facts section styling-----*/
+
+.fun-facts{
+   text-align:center;
+   padding:15px;
+}
+
+/*------favorite book section styling-----*/
+
+.fun-facts .book{
+    padding:15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fun-facts .book h3{
+    padding-bottom:20px;
+}
+
+.fun-facts .book img{
+    padding-bottom:20px;
+    position:relative;
+    top:0;
+    transition:top ease 0.5s;
+}
+
+.fun-facts .book img:hover{
+    top: -10px;
+}
+
+.fun-facts .book a{
+    color:lightcoral;
+    transition: color 0.3s ease-in-out;
+}
+
+.fun-facts .book a:hover{
+    color:grey;
+}
+
+/*-----favorite song section styling-----*/
+
+.fun-facts .song{
+    padding:15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fun-facts .song .song-description{
+    padding-bottom:15px;
+}
+
+.fun-facts .song audio{
+    position:relative;
+    top:0;
+    transition:top ease 0.5s;
+}
+
+.fun-facts .song audio:hover{
+    top: -10px;
+}
+
+.fun-facts .song .song-links a{
+    padding-bottom: 50px;
+    color:lightcoral;
+    transition: color 0.3s ease-in-out;
+}
+
+.fun-facts .song .song-links a:hover{
+    color:grey;
+}
+
+/*-----favorite movie section styling-----*/
+
+.movie h3{
+    padding-bottom:15px;
+}
+
+.movie iframe{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    position:relative;
+    top:0;
+    transition:top ease 0.5s;
+}
+
+.movie iframe:hover{
+    top:-10px;
+}
+
+/*-----footer styling-----*/
+
+.footer-line{
+    display: block;
+    height: 2px;
+    border: 0;
+    width:50%;
+    border-top: 2px solid dimgrey;
+    margin: auto;
+    padding: 0;
+}
+
+footer {
+    padding-top: 20px;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+}
+
+footer span a{
+    color:lightcoral;
+}
+
+footer span a:hover{
+    color:#ffffff;
+    transition: color 0.3s ease-in-out;
+}
+
+

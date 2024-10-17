@@ -12,6 +12,9 @@
     <!--Favicon-->
     <link rel="shortcut icon" href="/assets/img/avatar_image.png" type="image/png">
 
+    <!--link to resume css stylesheet-->
+    <link rel="stylesheet" href="/css/resume.css" />
+
 </head>
 
 <body>
@@ -23,7 +26,7 @@
 
         <!--Resume page navigation menu, each item is a link-->
         <nav>
-            <h3>Navigation:</h3>
+            <!--<h3>Navigation:</h3>-->
            <ul>
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="#">Resume</a></li>
@@ -31,8 +34,15 @@
             </ul>
         </nav>
 
+        <!--button which when clicked takes user to my github page-->
+        <a href="http://github.com/EllianaRico24">
+            <button>View my Work</button>
+        </a>
+
+        </header>
+
     <!--Section including contact information, and a link to email address -->
-        <section>
+        <section class="contact-info">
 
         <h2>Contact Information</h2>
 
@@ -41,39 +51,37 @@
 
         </section>
 
-    </header>
-
     <br />
 
     <main>
 
         <!--Section including overall objective and a small description-->
-        <section>
+        <section class="objective">
 
         <h3>Objective</h3>
 
-        <p>Seeking a spring/summer internship for 2025 to improve my skills as a front end developer before beginning my final year at Oakland Universiy.</p>
+        <p>Seeking a spring/summer internship for 2025 to improve my skills as a front end developer before beginning my final year at Oakland University.</p>
 
         </section>
 
         <br />
 
         <!-- Section on Professional Experience including subsections with spefific examples and details-->
-        <article>
+        <article class="prof-experience">
 
             <h3>Professional Experience</h3>
 
-            <section>
+            <section class="prof-one">
             <h4>August 2023 - Present | Partner, Starbucks, Rochester MI </h4>
             <p>Crafted drinks for customers and handeled monetary interactions in a fast-paced, team-oriented workplace, as well as assisted in both opening and closing store tasks. </p>
             </section>
 
-            <section>
+            <section class="prof-two">
             <h4>June 2023 - August 2023 | Beauty Advisor, Ulta Beauty, Rochester MI</h4>
             <p>Aided customers in finding products as well as introducing them to company loyalty programs and memberships, as well as trained new Beauty Advisors. </p>
             </section>
 
-            <section>
+            <section class="prof-three">
             <h4>June 2021 - September 2021 | Crew Member, Culvers, Rochester MI</h4>
             <p>Completed day to day tasks around the workplace, assisted customers in placing and receiving orders.</p>
             </section>
@@ -84,12 +92,12 @@
         <br />
 
         <!--Section including educational experience represented in tabular format-->
-        <section>
+        <section class="education-table">
 
-            <h3>Educational Experiences</h3>
+            <h3 class="education-title">Educational Experiences</h3>
 
             <!--A table with 2 columns-->
-            <table border="2">
+            <table>
 
                 <thead>
                     <tr>
@@ -113,7 +121,7 @@
         <br />
 
         <!--Section on Extracurricular Activities and small description  -->
-        <section>
+        <section class="interests">
 
             <h3>Extracurricular Interests and Hobbies</h3>
 
@@ -125,20 +133,20 @@
 
     <br />
     <br />
-    <hr />
+    <hr class="footer-line"/>
     <br />
 
     <!--footer section including links to email and github, as well as copyright information-->
     <footer>
-        <email>Email me at <a href="mailto:ellianarico@oakland.edu">ellianarico@oakland.edu</a></email>
+        <span>Email me at <a href="mailto:ellianarico@oakland.edu">ellianarico@oakland.edu</a></span>
         <br />
         <br />
 
-        <github>Follow me on <a href="http://github.com/EllianaRico24">Github</a></github>
+        <span>Follow me on <a href="http://github.com/EllianaRico24">Github</a></span>
         <br />
         <br />
 
-        <copyright>© 2024 Elliana Rico. All rights reserved.</copyright>
+        <span>© 2024 Elliana Rico. All rights reserved.</span>
     </footer>
     
 </body>

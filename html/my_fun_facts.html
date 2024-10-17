@@ -12,6 +12,9 @@
     <!--Favicon-->
     <link rel="shortcut icon" href="/assets/img/avatar_image.png" type="image/png">
 
+    <!--link to fun facts css stylesheet-->
+    <link rel="stylesheet" href="/css/fun_facts.css" />
+
 </head>
 
 <body>
@@ -23,13 +26,20 @@
 
         <!--fun facts page navigation menu, each item is a link-->
         <nav>
-            <h3>Navigation:</h3>
+            <!--<h3>Navigation:</h3>-->
            <ul>
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="my_resume.html">Resume</a></li>
                 <li><a href="#">Fun Facts</a></li>
             </ul>
         </nav>
+
+
+        <!--button which when clicked takes user to my github page-->
+        <a href="http://github.com/EllianaRico24">
+            <button>View my Work</button>
+        </a>
+
 
     </header>
 
@@ -38,14 +48,14 @@
     <main>
 
         <!--Main section with subsections describing my favorite book, song, and movie -->
-        <article>
+        <article class="fun-facts">
 
             <h2>Some Fun Facts About Me</h2>
 
             <br />
 
             <!--Section describing my favorite book, along with the link to purchase -->
-            <section>
+            <section class="book">
 
                 <h3>My Favorite Book | SPYxFAMILY</h3>
                 
@@ -62,11 +72,11 @@
         <br />
 
             <!-- Section describing my favorite song, along with a link to listen-->
-            <section>
+            <section class="song">
 
                 <h3>My Favorite Song | Overdose - Ciki</h3>
 
-                <p>Ciki is an indie singer/songwriter based in Seoul, South Korea.</p>
+                <p class="song-description">Ciki is an indie singer/songwriter based in Seoul, South Korea.</p>
 
                 <!--Embedded audio clip of my favorite song-->
                 <audio src="../assets/audio/favorite_song.mp3" controls>Your browser doesn't support the audio format</audio>
@@ -74,14 +84,14 @@
             <br /> 
 
             <!--Link to lsiten on Spotify and youtube-->
-            <p>Listen to more Ciki on <a href="https://open.spotify.com/artist/39EEmUKhvMcVn8icCyQlg5">Spotify</a> | <a href="https://www.youtube.com/channel/UCygLQnjhR2C13cT5eO4vG-A">Youtube</a></p>
+            <p class="song-links">Listen to more Ciki on <a href="https://open.spotify.com/artist/39EEmUKhvMcVn8icCyQlg5">Spotify</a> | <a href="https://www.youtube.com/channel/UCygLQnjhR2C13cT5eO4vG-A">Youtube</a></p>
 
             </section>
 
         <br />
 
             <!--Section about my favorite movie, along with the trailer-->
-            <section>
+            <section class="movie">
 
                 <h3>Favorite Movie | The Secret World of Arrietty</h3>
 
@@ -96,19 +106,19 @@
     
     <br />
     <br />
-    <hr />
+    <hr class="footer-line"/>
     <br />
 
     <!--footer section including links to email and github, as well as copyright information-->
     <footer>
-        <email>Email me at <a href="mailto:ellianarico@oakland.edu">ellianarico@oakland.edu</a></email>
+        <span>Email me at <a href="mailto:ellianarico@oakland.edu">ellianarico@oakland.edu</a></span>
         <br />
         <br />
 
-        <github>Follow me on <a href="http://github.com/EllianaRico24">Github</a></github>
+        <span>Follow me on <a href="http://github.com/EllianaRico24">Github</a></span>
         <br />
         <br />
 
-        <copyright>© 2024 Elliana Rico. All rights reserved.</copyright>
+        <span>© 2024 Elliana Rico. All rights reserved.</span>
     </footer>
 </html>

@@ -1,0 +1,177 @@
+/*-----overall page styling & resets-----*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333;
+    background-image: linear-gradient(white, pink);
+}
+
+/*-----header styling-----*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color:#ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 24px;
+}
+
+
+/*------Navbar Styling-----*/
+
+nav{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    color:dimgrey;
+    font-size: 18px;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color:dimgrey;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    
+}
+
+nav ul li:hover a{
+    color:pink;
+    transition: color 0.3s ease-in-out;
+}
+
+/*-----Call-to-action button styling------*/
+
+button {
+    font-size: 18px;
+    color:dimgrey;
+    background-color: lightpink;
+    border:none;
+    text-align:center;
+    padding: 10px;
+}
+
+button:hover {
+    color:#ffffff;
+    transition: color 0.3s ease-in-out;
+}
+
+/*-----first section (avatar image and quote styling)-----*/
+
+.avatar-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+    margin: 15px;
+    font-style:italic;
+}
+
+img {
+    margin: 20px auto;
+    max-width: 80%;
+    height: auto;
+    border-radius: 50px;
+    position:relative;
+    top:0;
+    transition:top ease 0.5s;
+}
+
+img:hover{
+    top:-10px;
+}
+
+/*-----about me section styling-----*/
+
+.me-section{
+    text-align:center;
+    padding: 15px;
+}
+
+.me-section p a{
+    color:lightcoral;
+}
+.me-section p a:hover{
+        color:#ffffff;
+    transition: color 0.3s ease-in-out;
+}
+
+/*-----progress bar section styling-----*/
+.progress-section{
+    text-align:center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius:50px;
+    margin:auto;
+    width:50%;
+    position:relative;
+    top:0;
+    transition:top ease 0.5s;
+}
+
+.progress-section:hover{
+    top:-10px;
+}
+
+.progress-section .top-label{
+    font-weight:bold;
+}
+
+.progress-section .bottom-label{
+    font-style:italic;
+}
+
+/*-----footer styling-----*/
+
+.footer-line{
+    display: block;
+    height: 2px;
+    border: 0;
+    width:50%;
+    border-top: 2px solid dimgrey;
+    margin: auto;
+    padding: 0;
+}
+
+footer {
+    padding-top: 20px;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+}
+
+footer span a{
+    color:lightcoral;
+}
+
+footer span a:hover{
+    color:#ffffff;
+    transition: color 0.3s ease-in-out;
+}
+
+
+
+
